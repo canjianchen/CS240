@@ -1,0 +1,37 @@
+#  Pile of Books
+
+A pile of books on your desk. Each book you can remove only the top one from the pile and cannot remove a book from under another one. Likewise, you cannot add a book beneath another one. You can add another book to the pile only by placing it on the top of the pile.
+
+## Getting Started
+
+Make sure dowloaded the file from the zip file and unzip the folder in the same directory
+
+
+### Prerequisites
+
+Java in your Operation System
+Have a IDE can run Java
+
+## Running the tests
+
+four java, file in the same folder
+
+Run the demo.java 
+
+### Break down into end to end tests
+
+Array:
+We will test the Array stack that implement in the pileOfBooks.java
+1. Create a new ArrayPile object named books
+2. display the size of the books , should be 0 since it is a new contructor 
+3. tell the user that starting adding books
+4. put 3 books on the top the pile
+5. pop the top book out which is book 3
+6. continue adding book 4 and book 5
+7. Display the top of the pile
+8. display the size of the pile
+9. use clear() to clean up the pile and display all the books that delected 
+
+Linked-List  :
+same steps as array but instead of using linked-list implementation
+
